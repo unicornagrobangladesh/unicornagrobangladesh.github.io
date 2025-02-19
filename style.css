@@ -345,13 +345,19 @@ body {
   height: 40px;
   line-height: 40px;
   border-radius: 50px;
-  background-color: #ffd8d9;
-  font-weight: 500;
+  background-color: transparent;
+  font-weight: 700;
   color: #00C012;
-  border: 1px solid #00C012;
+  border: 2px solid #00C012;
   position: absolute;
-  bottom: 20px;
+  bottom: 26px;
   right: 10px;
+  transition: 0.4s ease;
+}
+
+#product1 .product a i:hover{
+  background-color: #00C012;
+  color: white;
 }
 
 #banner{
@@ -496,10 +502,20 @@ footer .follow{
   margin-top: 20px;
 }
 
-footer .follow i{
-  color: #465b52;
-  padding-right: 4px;
+footer .follow ion-icon{
+  color: #00C012;
+  font-size: 25px;
+  margin-right: 10px;
   cursor: pointer;
+  border: 2px solid #00C012;
+  padding: 6px;
+  border-radius: 8px;
+  transition: 0.4s ease;
+}
+
+footer .follow ion-icon:hover{
+  background-color: #00C012;
+  color: white;
 }
 
 footer .install .row img{
