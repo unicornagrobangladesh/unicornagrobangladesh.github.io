@@ -6,8 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image" href="img/short_logo.png">
-        <title>Home</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <title>Collections</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -15,20 +15,20 @@
 
         <section id="header">
 
-            <a href="#" id="mobile-version"><img src="img/logo.png" class="logo" alt="medicare-logo"></a>
+            <a href="index.html" id="mobile-version"><img src="img/logo.png" class="logo" alt="medicare-logo"></a>
 
             <div>
                 <ul id="navbar">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="#" >Collections</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="active">Collections</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <a href="#" id="close">Back</a>
                 </ul>
             </div>
 
             <div id="mobile">
-                <i id="bar" class="fal fa-outdent"></i>
+                <i id="bar" class="fas fa-horse" style="color: #00c012;"></i>
             </div>
 
         </section>
@@ -184,6 +184,34 @@
 
                 </div>
 
+                <div class="product" data-category="reptile">
+                    
+                    <img src="img/products/star.webp" alt="first-aid-kit">
+
+                    <div class="description">
+                        <span>Reptile</span>
+                        <h4>Star Tortoise</h4>
+                        <h5>----- Taka [<span style="color: #c00000;">Out of stock</span>]</h5>                        
+                    </div>
+
+                    <a href="https://www.facebook.com/messages/t/101304509605302"><i class="fas fa-message"></i></a>
+
+                </div>
+
+                <div class="product" data-category="reptile">
+                    
+                    <img src="img/products/corn.webp" alt="first-aid-kit">
+
+                    <div class="description">
+                        <span>Reptile</span>
+                        <h4>Corn Snake</h4>
+                        <h5>----- Taka [<span style="color: #c00000;">Out of stock</span>]</h5>                        
+                    </div>
+
+                    <a href="https://www.facebook.com/messages/t/101304509605302"><i class="fas fa-message"></i></a>
+
+                </div>
+
             </div>
 
         </section>
@@ -210,7 +238,7 @@
             <div class="col">
 
                 <h4>About</h4>
-                <a href="#">About Us</a>
+                <a href="aboutus.html">About Us</a>
                 <a href="#">Delivary Information</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms and Conditions</a>
@@ -221,11 +249,11 @@
             <div class="col">
 
                 <h4>Categories</h4>
-                <a href="#">Fish</a>
-                <a href="#">Reptiles</a>
-                <a href="#">Amphibians</a>
-                <a href="#">Birds</a>
-                <a href="#">Cattle</a>
+                <a href="#" data-category="fish">Fish</a>
+                <a href="#" data-category="reptile">Reptiles</a>
+                <a href="#" data-category="amphibian">Amphibians</a>
+                <a href="#" data-category="bird">Birds</a>
+                <a href="#" data-category="cattle">Cattle</a>
 
             </div>
 

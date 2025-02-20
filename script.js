@@ -43,30 +43,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-    const navLinks = document.querySelectorAll("#navbar a");
-
-    // Get the current page filename without query params
-    let currentPage = window.location.pathname.split("/").pop().split("?")[0];
-
-    // Default to "index.html" if the user is on the root domain
-    if (currentPage === "" || currentPage === "/") {
-        currentPage = "index.html";
-    }
-
-    // Loop through nav links and set the active class
-    navLinks.forEach(link => {
-        let linkHref = link.getAttribute("href").split("?")[0]; // Ignore query params
-
-        // Remove "active" class from all links
-        link.classList.remove("active");
-
-        // Check if the link matches the current page
-        if (currentPage === linkHref) {
-            link.classList.add("active");
-        }
-    });
-});
-
-

@@ -575,6 +575,81 @@ footer .copyright span{
 .fe-box a{
   text-decoration: none;
 }
+
+/* About Us */
+
+#about-us-page-header{
+  background-image: url("img/banner/b2.webp");
+  width: 100%;
+  height: 65vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#about-us-page-header h2,
+#about-us-page-header p{
+  color: #ffff;
+}
+
+#about-us-page-header p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#about-head{
+  display: flex;
+  align-items: center;
+  color: #00432C;
+}
+
+#about-head img{
+  width: 40%;
+  height: auto;
+}
+
+#about-head div{
+  padding-left: 40px;
+}
+
+#about-head marquee{
+  background-color: #00C012;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffff;
+}
+
+#about-head p{
+  line-height: 30px;
+}
+
+/* Blogs */
+
+#blogs-page-header{
+  background-image: url("img/banner/b3.webp");
+  width: 100%;
+  height: 65vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#blogs-page-header h2,
+#blogs-page-header p{
+  color: #ffff;
+}
+
+#blogs-page-header p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /*Media Query*/
 
 @media (max-width:810px) {
@@ -661,6 +736,19 @@ footer .copyright span{
     margin-bottom: 10px;
   }
 
+  #about-head{
+    flex-direction: column;
+  }
+
+  #about-head img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div{
+    padding-left: 0px;
+  }
+
 }
 
 @media (max-width: 477px) {
@@ -719,6 +807,31 @@ footer .copyright span{
 
   footer .copyright{
     text-align: start;
+  }
+
+  #page-header{
+    background-image: url("img/banner/b1o.webp");
+  }
+
+  #about-head{
+    flex-direction: column;
+  }
+
+  #about-head img{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div{
+    padding-left: 0px;
+  }
+
+  #about-us-page-header{
+    background-image: url("img/banner/b2o.webp");
+  }
+
+  #blogs-page-header{
+    background-image: url("img/banner/b3o.webp");
   }
 
 }
